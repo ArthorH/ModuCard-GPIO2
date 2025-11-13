@@ -1,0 +1,191 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1f3a7e08-e79a-4dd0-a9ea-bc7cf04d9899")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 140.97 39.37)
+		(size 31.75 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02cafb15-97fd-4bf3-a7ff-c287e9f70498")
+		(property "Sheetname" "Power_Switch1"
+			(at 140.97 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Switch.kicad_sch"
+			(at 140.97 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 140.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SEL" input
+			(at 140.97 43.18 180)
+			(uuid "e4fa8f22-94d5-423d-8430-a4944b5b2e0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT5v" input
+			(at 172.72 43.18 0)
+			(uuid "d4254571-0cb3-473b-a4e8-bf7c9c83e52f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT12v" input
+			(at 172.72 50.8 0)
+			(uuid "91e535ea-b5b9-4edf-952b-c12c8eb1fe62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{EN}" input
+			(at 140.97 50.8 180)
+			(uuid "8ed080a7-6b3d-434e-9236-f65baaf56d96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/39f71a30-4448-45b9-87e6-2cf566c8cd4f"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 63.5)
+		(size 31.75 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "070dfafd-1820-462a-add3-6f1d5578212a")
+		(property "Sheetname" "Power_Switch2"
+			(at 140.97 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Switch.kicad_sch"
+			(at 140.97 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SEL" input
+			(at 140.97 67.31 180)
+			(uuid "f6641e5d-4210-463a-8a1d-d1182ed46281")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT5v" input
+			(at 172.72 67.31 0)
+			(uuid "3f7fd80a-aaed-411f-8988-ed6949d59c42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT12v" input
+			(at 172.72 74.93 0)
+			(uuid "0ed16c1e-74a2-40fe-8c46-31c18bfbd612")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{EN}" input
+			(at 140.97 74.93 180)
+			(uuid "9787c602-f4cf-4736-9a16-49d4c2037ef3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/b6b2af81-5f07-436f-b6a5-7acb7f1180b2"
+					(page "8")
+				)
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/39f71a30-4448-45b9-87e6-2cf566c8cd4f"
+					(page "16")
+				)
+			)
+		)
+	)
+)
