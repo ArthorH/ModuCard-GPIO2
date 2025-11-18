@@ -10,4 +10,5 @@
   (lib (name "PESD5V0S2BT")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/PESD5V0S2BT.kicad_sym")(options "")(descr ""))
   (lib (name "DRV8844")(type "KiCad")(uri "${KIPRJMOD}/lib/DRV8844.kicad_sym")(options "")(descr ""))
   (lib (name "1to2Decoder")(type "KiCad")(uri "${KIPRJMOD}/lib/1to2Decoder.kicad_sym")(options "")(descr ""))
+  (lib (name "PCA9546")(type "KiCad")(uri "${KIPRJMOD}/lib/PCA9546.kicad_sym")(options "")(descr ""))
 )

@@ -1909,10 +1909,22 @@
 		(uuid "3cbf25ec-27a9-4501-ab45-8915a53f8185")
 	)
 	(junction
+		(at 73.66 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c667cea7-f42a-4815-a473-994cae1f507e")
+	)
+	(junction
 		(at 73.66 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdb67860-cc21-4645-98d1-7727ded64b0d")
+	)
+	(junction
+		(at 59.69 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc0049f3-ea9f-4e5a-854e-c170b5a3478a")
 	)
 	(no_connect
 		(at 128.27 95.25)
@@ -2389,6 +2401,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 113.03) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f1ea80-5ea4-499c-a7e4-c3d76a08c630")
+	)
+	(wire
+		(pts
 			(xy 172.72 102.87) (xy 172.72 100.33)
 		)
 		(stroke
@@ -2406,6 +2428,16 @@
 			(type default)
 		)
 		(uuid "60329a79-d4f3-4ed4-ae98-68dd8cdd250e")
+	)
+	(wire
+		(pts
+			(xy 59.69 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6411e412-2078-4268-bbef-333b60b18d65")
 	)
 	(wire
 		(pts
@@ -2619,7 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 92.71) (xy 73.66 92.71)
+			(xy 45.72 92.71) (xy 59.69 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2629,7 +2661,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 109.22) (xy 106.68 100.33)
+			(xy 59.69 74.93) (xy 59.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fefb37-0feb-40a9-88e0-08912252590e")
+	)
+	(wire
+		(pts
+			(xy 106.68 111.76) (xy 106.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2716,6 +2758,16 @@
 			(type default)
 		)
 		(uuid "c3010774-bf34-49b5-bda5-99db784c3c04")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 59.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35f576b-debe-4250-a07e-a086da3b20ae")
 	)
 	(bus
 		(pts
@@ -2877,6 +2929,16 @@
 		)
 		(uuid "fd0ad5d1-ba53-4b7e-b0e7-c63bb004d570")
 	)
+	(label "BRIDGE.NSLEEP"
+		(at 176.53 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04878ba0-e33b-4a85-bb82-5b761dda9fbf")
+	)
 	(label "BRIDGE.IN3"
 		(at 217.17 82.55 0)
 		(effects
@@ -2897,6 +2959,26 @@
 		)
 		(uuid "13935c6b-b5db-4df0-9ef8-ea699ec59236")
 	)
+	(label "BRIDGE.NRST"
+		(at 176.53 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "162a3af4-7fe1-419e-92ae-4a7007b9b0b6")
+	)
+	(label "BRIDGE.EN1"
+		(at 176.53 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a22e439-411f-4e05-ac5f-26e1459cb481")
+	)
 	(label "GPIO1.Bridge+"
 		(at 111.76 85.09 0)
 		(effects
@@ -2906,6 +2988,16 @@
 			(justify left bottom)
 		)
 		(uuid "1a676884-44c4-40e1-bb9d-a4be09bd7ce8")
+	)
+	(label "BRIDGE.EN2"
+		(at 176.53 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f7f72fa-8a92-4587-8935-3064f2ae07a0")
 	)
 	(label "BRIDGE.NRST"
 		(at 217.17 102.87 0)
@@ -2917,16 +3009,6 @@
 		)
 		(uuid "30a5dda8-43d7-461b-b782-b20e044db7b9")
 	)
-	(label "IN3"
-		(at 176.53 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4346b659-49fa-4e86-af10-2c2a4821700f")
-	)
 	(label "GPIO1.Bridge-"
 		(at 210.82 121.92 0)
 		(effects
@@ -2936,16 +3018,6 @@
 			(justify left bottom)
 		)
 		(uuid "4429f4a9-b2a7-4ac2-914d-f6cf1caa0cf9")
-	)
-	(label "IN1"
-		(at 176.53 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45f27ac6-24e6-4cb7-b2bb-3270b160abb2")
 	)
 	(label "BRIDGE.IN2"
 		(at 217.17 80.01 0)
@@ -2957,15 +3029,15 @@
 		)
 		(uuid "4bf57a31-a861-409e-b7ef-5bf4a8796757")
 	)
-	(label "IN2"
-		(at 176.53 74.93 0)
+	(label "BRIDGE.EN3"
+		(at 176.53 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "61ec3043-01e1-4720-86ad-59c6f4b40851")
+		(uuid "60818e69-a0e6-4404-980e-242ff831732c")
 	)
 	(label "VM"
 		(at 73.66 74.93 180)
@@ -2977,46 +3049,6 @@
 		)
 		(uuid "64584151-02a1-45d8-85e3-49e3c5a6b789")
 	)
-	(label "IN4"
-		(at 176.53 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69da97a5-10e0-405f-ad32-91a1a238dc4b")
-	)
-	(label "NRST1"
-		(at 176.53 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a5cbb94-f5bf-492a-aa7f-47bbdaf6d58a")
-	)
-	(label "EN1"
-		(at 176.53 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d2ab0cb-9b37-48b8-8577-929f7a4e9b71")
-	)
-	(label "EN2"
-		(at 176.53 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e034dd8-e0ce-4a4b-a177-2e96ea9a0d18")
-	)
 	(label "GPIO2.Bridge+"
 		(at 210.82 133.35 0)
 		(effects
@@ -3026,6 +3058,16 @@
 			(justify left bottom)
 		)
 		(uuid "732da442-ef06-4d20-b3cf-36bff3996451")
+	)
+	(label "BRIDGE.IN3"
+		(at 176.53 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7450277e-5491-4081-87b1-6cec52874002")
 	)
 	(label "BRIDGE.IN4"
 		(at 217.17 85.09 0)
@@ -3087,15 +3129,25 @@
 		)
 		(uuid "9e374dbe-f865-4e38-b496-3a8b21461dcd")
 	)
-	(label "NSLEEP1"
-		(at 176.53 95.25 0)
+	(label "BRIDGE.EN4"
+		(at 176.53 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a3858518-5cde-4eab-9810-ac5d3fef85ff")
+		(uuid "a29c1d92-1da4-4737-8f3b-6226d5dccaaa")
+	)
+	(label "BRIDGE.IN4"
+		(at 176.53 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a533e31a-ae56-4645-a2df-a5679fd5a7a3")
 	)
 	(label "BRIDGE.NSLEEP"
 		(at 217.17 100.33 0)
@@ -3137,25 +3189,25 @@
 		)
 		(uuid "cbf9b30f-f2ee-472f-9682-352fd636832e")
 	)
-	(label "EN4"
-		(at 176.53 87.63 0)
+	(label "BRIDGE.NFAULT"
+		(at 176.53 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "dee2f025-e6f3-4472-b918-a54b0898649c")
+		(uuid "d08299b5-2002-46fd-91ef-bb6ca69f385d")
 	)
-	(label "EN3"
-		(at 176.53 82.55 0)
+	(label "BRIDGE.IN2"
+		(at 176.53 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e158daef-5514-4c42-a39d-7eb1bfb0deef")
+		(uuid "da2347a2-92e3-42d1-af0f-7bc73cda5a38")
 	)
 	(label "GPIO2.Bridge+"
 		(at 111.76 77.47 0)
@@ -3177,6 +3229,16 @@
 		)
 		(uuid "e92f3f52-ef2e-484b-8901-a2bb140f148c")
 	)
+	(label "BRIDGE.IN1"
+		(at 176.53 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f915060e-c9da-47d7-940f-5730da75b6ed")
+	)
 	(label "BRIDGE.NFAULT"
 		(at 217.17 97.79 0)
 		(effects
@@ -3187,19 +3249,9 @@
 		)
 		(uuid "fd42f5fc-cfea-4029-bbdc-bbdbfbed70c1")
 	)
-	(label "NFAULT1"
-		(at 176.53 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd7a054a-2b8b-496c-aa04-dce8653673fa")
-	)
 	(hierarchical_label "V_conn"
 		(shape input)
-		(at 57.15 92.71 180)
+		(at 45.72 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3666,7 +3718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 74.6252 102.87 0)
 			(effects
 				(font
@@ -3926,7 +3978,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 110.49 0)
+		(at 172.72 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3936,7 +3988,7 @@
 		(fields_autoplaced yes)
 		(uuid "582631f7-3eeb-417e-b458-b5678e7ff59b")
 		(property "Reference" "#PWR0486"
-			(at 172.72 116.84 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 115.57 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +4005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 110.49 0)
+			(at 172.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +4014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 110.49 0)
+			(at 172.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +4023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 110.49 0)
+			(at 172.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4120,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 109.22 0)
+		(at 106.68 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4078,7 +4130,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f9dfb83-b383-4acc-b644-742741cf5bb8")
 		(property "Reference" "#PWR0482"
-			(at 106.68 115.57 0)
+			(at 106.68 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 114.3 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 109.22 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 109.22 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 109.22 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +4785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 74.6252 85.09 0)
 			(effects
 				(font

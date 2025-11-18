@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
-          "height": 3.385656,
-          "width": 2.8
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -270,24 +270,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_issues|1066800|1041400|b7c2c80d-8ff4-412e-94ce-f764f8a3191c|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "pin_to_pin|2298700|952500|096a1b71-643d-4915-abc7-88e600b2a9ce|cd611031-12eb-4281-91d7-ddadb10329c8|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1727200|1016000|f04b3a18-d8e2-45f2-ac8e-5d76979bc21c|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/e8ac371f-5104-4cae-bf76-5dce1f5864c3|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/e8ac371f-5104-4cae-bf76-5dce1f5864c3|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|889000|1879600|0b7ef83b-8023-4b0b-b8f7-795a02ea36eb|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -782,8 +765,8 @@
       "ST-LINK"
     ],
     [
-      "7420b09d-9324-47d7-ab3b-16a7adb75398",
-      "Power_Switch1"
+      "1b23b362-7135-4d29-b20d-ed76a5cc4194",
+      "GPIO_Conn5"
     ],
     [
       "c4e62f69-aed8-45c4-bc74-414bd9b2dcad",
@@ -798,64 +781,32 @@
       "Hbridge3-4"
     ],
     [
-      "d5143663-60ad-49f6-8255-cde161c7617b",
-      "Power_Switch2"
-    ],
-    [
-      "28930eef-81a7-4c75-b73c-1c7b00b3cc86",
+      "4eda1144-e312-42a4-9b11-c5c06c1aaa9f",
       "GPIO_Conn1"
     ],
     [
-      "2f34d012-9a24-4a3b-92e9-b9f647e88f8d",
-      "Power_Switch3"
+      "cc238e50-2a08-4931-b401-05a6af1b694d",
+      "GPIO_Conn2"
+    ],
+    [
+      "f57ae98a-61e0-47bb-8464-30c10502e3ae",
+      "GPIO_Conn3"
     ],
     [
       "0893129f-659c-4166-ba34-6cbfe6d758b0",
       "Hbridge1-2"
     ],
     [
-      "c4663747-8920-4526-8b46-7463f57ac6a7",
-      "Power_Switch4"
-    ],
-    [
-      "f62437df-4cd6-4355-ada1-388cfc277a82",
-      "GPIO_Conn2"
-    ],
-    [
-      "5445c8af-56df-4ad4-8d2b-60f862de6c5f",
-      "GPIO_Conn3"
+      "a614ba58-663e-4e00-9afa-f64dfe3da45e",
+      "GPIO_Conn4"
     ],
     [
       "a44745db-f8f2-417a-a304-25e89f2d2646",
       "I2C-GPIO"
     ],
     [
-      "7a0c5837-c195-43a5-913a-c5038d8bbfc8",
-      "GPIO_Conn4"
-    ],
-    [
       "dc0a7229-b6e7-4bb5-b290-01af63ea67ba",
       "I2C_pwr_sel"
-    ],
-    [
-      "d7d75e11-b708-4278-83d8-7998eca041f9",
-      "GPIO_Conn5"
-    ],
-    [
-      "8cd714b7-8c5c-4fab-827d-be45f6261f10",
-      "Power_Switch1"
-    ],
-    [
-      "5a2f4fba-fe76-45c4-8a81-a2be4b1c7a2b",
-      "Power_Switch2"
-    ],
-    [
-      "ffeff01c-df82-4a47-a702-238ec3d1bf85",
-      "Power_Switch3"
-    ],
-    [
-      "846e6e0c-2135-485f-9a3f-5ba10edb730d",
-      "Power_Switch4"
     ]
   ],
   "text_variables": {
