@@ -3718,7 +3718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 74.6252 102.87 0)
 			(effects
 				(font
@@ -4785,7 +4785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 74.6252 85.09 0)
 			(effects
 				(font
