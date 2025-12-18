@@ -7,4 +7,6 @@
   (lib (name "QRcode")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/QRcode.pretty")(options "")(descr ""))
   (lib (name "Molex-UP-righter")(type "KiCad")(uri "${KIPRJMOD}/lib/Molex-uprighter/Molex-UP-righter.pretty")(options "")(descr ""))
   (lib (name "XT60-RightAngle")(type "KiCad")(uri "${KIPRJMOD}/lib/XT-60uprighter/XT60-RightAngle.pretty")(options "")(descr ""))
+  (lib (name "Barometer")(type "KiCad")(uri "${KIPRJMOD}/lib/Barometer.pretty")(options "")(descr ""))
+  (lib (name "IMU")(type "KiCad")(uri "${KIPRJMOD}/lib/IMU.pretty")(options "")(descr ""))
 )
